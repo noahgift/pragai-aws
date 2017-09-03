@@ -23,3 +23,6 @@ def test_download(mock_boto):
     res = download(resource=resource, bucket="gdelt-open-data",
                    key="events/1979.csv", filename="1979.csv")
     assert res == "1979.csv"
+    
+    import os
+    os.unlink("1979.csv")
