@@ -1,0 +1,17 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - echo "Upgrade Pip and install packages"
+      - pip install --upgrade pip
+      - make install
+
+  build:
+    commands:
+      - echo "Run lint and test"
+      - make lint
+      - make test
+  post_build:
+    commands:
+      - echo Build completed on `date`
