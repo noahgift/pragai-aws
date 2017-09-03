@@ -9,6 +9,6 @@ test:
 	PYTHONPATH=. && py.test --nbval-lax notebooks/*.ipynb
 
 lint:
-	pylint --disable=R,C paws
+	pylint --disable=R,C paws pcli
 
 all: install lint test

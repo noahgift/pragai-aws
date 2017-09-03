@@ -11,7 +11,8 @@ phases:
     commands:
       - echo "Run lint and test"
       - make lint
-      - make test
+      - echo $PYTHONPATH
+      - PYTHONPATH=".";make test;echo $PYTHONPATH
   post_build:
     commands:
       - echo Build completed on `date`
