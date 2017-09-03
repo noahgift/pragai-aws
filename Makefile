@@ -6,6 +6,7 @@ install:
 
 test:
 	PYTHONPATH=. && pytest -vv --cov=paws tests/*.py
+	PYTHONPATH=. && py.test --nbval-lax notebooks/*.ipynb
 
 lint:
 	pylint --disable=R,C paws
