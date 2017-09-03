@@ -5,10 +5,9 @@ install:
 	pip install -r requirements.txt
 
 test:
-	#cd src/chapter7; py.test --nbval-lax notebooks/*.ipynb
+	PYTHONPATH=. && pytest -vv --cov=paws tests/*.py
 
 lint:
-	#cd src/chapter7; pylint --disable=W,R,C *.py
+	pylint --disable=R,C paws
 
-lint-warnings:
-	#pylint --disable=R,C *.py
+all: install lint test
