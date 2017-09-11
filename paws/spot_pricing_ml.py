@@ -36,10 +36,10 @@ def combined_spot_df(spot_history_df, pricing_df):
     df['price_ecu_spot'] = df['SpotPrice']/df['compute_units_ecu']
     return df
 
-def cluster(combined_spot_df, sort_by="price_ecu_spot"):
+def cluster(combined_spot_history_df, sort_by="price_ecu_spot"):
     """Clusters Spot Instances"""
 
-    df_median = combined_spot_df.groupby("InstanceType").median()
+    df_median = combined_spot_history_df.groupby("InstanceType").median()
     df_median["InstanceType"] = df_median.index
     df_median["price_ecu_spot"] = df_median.price_ecu_spot.round(3)
     df_median.sort_values(sort_by, inplace=True)

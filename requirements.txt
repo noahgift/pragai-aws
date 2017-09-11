@@ -9,3 +9,4 @@ pytest-cov
 pandas
 nbval
 click
+sklearn
