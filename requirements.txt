@@ -9,4 +9,3 @@ pytest-cov
 pandas
 nbval
 click
-

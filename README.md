@@ -47,3 +47,35 @@ devops-test-user
 * speed up delivery while improving quality
 * use your favorite tools
 * View progress at-a-glance
+
+
+### Spot Instances
+
+https://aws.amazon.com/ec2/spot/spot-tutorials/
+
+- Typically between 50-60% savings.
+- Need to
+
+* Scientific Researchers
+* Financial Services
+* Video/Image processing companies
+* Web Crawling/data processing
+* Spot for Testing, Load testing, etc
+
+- Queue based architectures or checkpointing
+- Batch Processing
+
+Bidding for On-Demand price is most common.
+
+## How to Manage Interruptions
+
+Architectures:
+
+- Hadoop/EMR based
+- Checkpointing
+    * Write state out to a location
+- Grid
+    * Starcluster
+
+- Queue-Based
+    * requeue a job
