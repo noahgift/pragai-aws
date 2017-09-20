@@ -15,7 +15,11 @@ phases:
     commands:
       - echo "Run lint and test"
       - make lint
-      - PYTHONPATH=".";make test
+      #- PYTHONPATH=".";make test
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo "mounting EFS"
+      - sudo apt-get install nfs-common
+      - sudo mkdir efs
+      - sudo mount -t nfs4 -o nfsvers=4.1,rsize=1048576,wsize=1048576,hard,timeo=600,retrans=2 fs-1a09cdb3.efs.us-west-2.amazonaws.com:/ efs
+      - sudo ls -la /efs

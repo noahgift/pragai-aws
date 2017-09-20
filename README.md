@@ -79,3 +79,30 @@ Architectures:
 
 - Queue-Based
     * requeue a job
+
+## AWS Spot Instance
+
+Launching from Wizard Key Items:
+
+
+
+
+
+## AWS Batch
+
+* AWS Batch Webinar:  https://www.youtube.com/watch?v=pZ9acIfvIx4
+
+- Fully managed
+- Integrated with AWS:  S3, DynamoDB, Rekognition
+- Cost-optimized
+
+* Core concepts of Batch:
+
+- Jobs (suppor for containerized)
+    * array jobs (run many, many copies of your jobs)
+
+- Manage
+    * Can run with spot with lots of configuration.
+
+- Unmanaged:
+    * Can mount EFS for example
