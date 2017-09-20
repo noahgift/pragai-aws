@@ -10,3 +10,4 @@ pandas
 nbval
 click
 sklearn
+scipy
