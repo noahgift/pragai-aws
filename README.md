@@ -1,109 +1,22 @@
 # pragia-aws
-Chapter on AWS for Pragmatic AI
+Chapter 2 on AWS for Pragmatic AI
 
-* Deploy
+## Pragmatic AI Labs
+![Pragmatic AI Labs](https://paiml.com/images/logo_with_slogan_white_background.png)
 
-## Devops Essentials
+These notebooks and tutorials were produced by [Pragmatic AI Labs](https://paiml.com/).  You can continue learning about these topics by:
 
-### CloudFormation
-
-Template in JSON or Template
-
-What is DevOps?
-
-Feedback Loop:
-
-Developers -- Customers (Feedback Loop)
-
-build -- test -- release 
-plan  <-- Monitor
-
-DevOps Teams:
-How organisations process information:
-Pathologica -- Bureacratic -- Generative
-
-Traditional Teams:
-* Previously, changes could take 4-6 weeks.
-
-Modern Teams:  Autonomous Teams
-* Build, Test, Deploy, Run, Support
-
-Continous Delivery:
-
-* A lot like a factory/assembly
-* Software is always ready to release
-
-### Setup of IAM User
-
-devops-test-user
+*   Buying a copy of [Pragmatic AI: An Introduction to Cloud-Based Machine Learning](http://www.informit.com/store/pragmatic-ai-an-introduction-to-cloud-based-machine-9780134863863)
+*   Watching 8+ Hour Video Series on Safari: [Essential Machine Learning and AI with Python and Jupyter Notebook](https://www.safaribooksonline.com/videos/essential-machine-learning/9780135261118)
+*   Reading online with Safari:  [Pragmatic AI: An Introduction to Cloud-Based Machine Learning, First Edition](https://www.safaribooksonline.com/library/view/pragmatic-ai-an/9780134863924/)
+*  Watching video [Essential Machine Learning and AI with Python and Jupyter Notebook-Video-SafariOnline](https://www.safaribooksonline.com/videos/essential-machine-learning/9780135261118) on Safari Books Online.
+* Purchasing video [Essential Machine Learning and AI with Python and Jupyter Notebook- Purchase Video](http://www.informit.com/store/essential-machine-learning-and-ai-with-python-and-jupyter-9780135261095)
+*   Register for an [upcoming online training on Safari](https://www.safaribooksonline.com/search/?query=noah%20gift).
+*   Browsing [Pragmatic AI Source Code](https://github.com/noahgift/pragmaticai)
+*   Viewing more content at [noahgift.com](https://noahgift.com/)
+*   Viewing more content at [Pragmatic AI Labs](https://paiml.com/)
+*   Viewing more content on the [Pragmatic AI Labs YouTube Channel](https://www.youtube.com/channel/UCNDfiL0D1LUeKWAkRE1xO5Q)
+*   Reading content on [Pragmatic AI Medium](https://medium.com/pragmatic-ai-labs)
+*   Hear more about the some of the topics covered in [TWIML podcast](https://twimlai.com/twiml-talk-158-growth-hacking-sports-w-machine-learning-with-noah-gift/)
 
 
-### Static Website
-
-
-### Code Pipeline
-
-* Automate your release process
-* establish a consistent release process
-* speed up delivery while improving quality
-* use your favorite tools
-* View progress at-a-glance
-
-
-### Spot Instances
-
-https://aws.amazon.com/ec2/spot/spot-tutorials/
-
-- Typically between 50-60% savings.
-- Need to
-
-* Scientific Researchers
-* Financial Services
-* Video/Image processing companies
-* Web Crawling/data processing
-* Spot for Testing, Load testing, etc
-
-- Queue based architectures or checkpointing
-- Batch Processing
-
-Bidding for On-Demand price is most common.
-
-## How to Manage Interruptions
-
-Architectures:
-
-- Hadoop/EMR based
-- Checkpointing
-    * Write state out to a location
-- Grid
-    * Starcluster
-
-- Queue-Based
-    * requeue a job
-
-## AWS Spot Instance
-
-Launching from Wizard Key Items:
-
-
-
-
-
-## AWS Batch
-
-* AWS Batch Webinar:  https://www.youtube.com/watch?v=pZ9acIfvIx4
-
-- Fully managed
-- Integrated with AWS:  S3, DynamoDB, Rekognition
-- Cost-optimized
-
-* Core concepts of Batch:
-
-- Jobs (suppor for containerized)
-    * array jobs (run many, many copies of your jobs)
-
-- Manage
-    * Can run with spot with lots of configuration.
-
-- Unmanaged:
-    * Can mount EFS for example
