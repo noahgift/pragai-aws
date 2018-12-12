@@ -3,7 +3,7 @@ version: 0.2
 phases:
   install:
     commands:
-      - echo "Upgrade Pip and install packages"
+      - echo "Upgrade Pip and install packages. Certification crew was here."
       - pip install --upgrade pip
       - make install
             # create the aws dir
