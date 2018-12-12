@@ -1,6 +1,8 @@
 # Pragmatic AI on AWS
 Chapter 2 on AWS for Pragmatic AI
 
+![codebuild](https://user-images.githubusercontent.com/58792/49869955-da24d900-fdc6-11e8-925f-767fb7fb522f.png)
+
 ## Pragmatic AI Labs
 ![Pragmatic AI Labs](https://paiml.com/images/logo_with_slogan_white_background.png)
 
