@@ -1,4 +1,4 @@
-# pragia-aws
+# Pragmatic AI on AWS
 Chapter 2 on AWS for Pragmatic AI
 
 ## Pragmatic AI Labs
